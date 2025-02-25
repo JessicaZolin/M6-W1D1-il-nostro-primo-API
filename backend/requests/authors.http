@@ -1,0 +1,25 @@
+GET http://localhost:3002/authors
+
+
+
+###
+GET http://localhost:3002/authors/67bdcd35494e467e3cd86afc
+
+
+
+###
+POST http://localhost:3002/authors
+Content-Type: application/json
+
+{
+    "name" : "Pino",
+    "lastName" : "Pini",
+    "email" : "Pino.pini@gmail.com",
+    "dateOfBirth" : "2000-05-07",
+    "avatar" : "https://static.vecteezy.com/system/resources/previews/004/773/704/original/a-girl-s-face-with-a-beautiful-smile-a-female-avatar-for-a-website-and-social-network-vector.jpg"
+}
+
+
+###
+DELETE http://localhost:3002/authors/67be52af22b175f38627c84a
+
